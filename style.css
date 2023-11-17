@@ -216,10 +216,20 @@ button:hover {
     transform: scale(2);
     transition: 0.2s
 }
+/* responsive */
 @media only screen and (max-width: 850px) {
+     img{
+        width: 100%;
+     }
 #tourisme li {
     margin: 65px 100px 0px 50px;
     height: 226px;
     width: 55%;
+    }
+    #tourisme p {
+        font-size: 1.3rem;
+        width: 99%;
+        height: 15%;
+        margin: -32px -24px 0px -24px;
     }
 }
