@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clos Marsault - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li id="logo"><a href="#">Clos Marsault</a></li>
+            <li><a href="#lang">Langue</a></li>
+            <li><a href="#reservation">Réserver</a></li>
+            <li><a href="#contact">Nous contacter</a></li>
+        </ul>
+        </nav>    
+        <div id="imageprincipale">
+            <h1>Clos Marsault</h1>
+            <div id="firstline"></div>
+            <h3>Chambre d'hôtes</h3>
+        </div>
+    </header>
+    <main>
+        <section id="introduction">
+            <div id="textintro">
+                <h2>Un lieu unique, pour un séjour unique</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eligendi cupiditate voluptates consequatur.<br> Natus nisi architecto maxime. Corrupti mollitia porro quibusdam asperiores vero laboriosam eius.<br>(Moi non plus je comprend pas le latin) Benjamin SOUIKET</p>
+            </div>
+            <div id="prestation">
+                <div class="imagesprestation">
+                    <h4>Nous trouver</h4>
+                    <a href="https://maps.app.goo.gl/9QJBcBGAVcndWimLA" target="_blank"><img src="media/carte.JPG" alt="carte"></a>
+                </div>
+                <div class="imagesprestation">
+                    <h4>Coté chambres</h4>
+                    <a href="https://maps.app.goo.gl/9QJBcBGAVcndWimLA" target="_blank"><img src="media/chambre.JPG" alt="chambre"></a>
+                </div>
+                <div class="imagesprestation">
+                    <h4>Coté cuisine</h4>
+                    <a href="https://maps.app.goo.gl/9QJBcBGAVcndWimLA" target="_blank"><img src="media/repas.JPG" alt="cuisine"></a>
+                </div>
+            </div>
+        </section>
+        <section id="tourisme">
+            <h2>Et tant à découvrir...</h2>
+            <ul>
+                <li id="ocean"><a href="media/ocean.jpg" target="_blank"><p>L'océan Atlantique</p></a></li>
+                <li id="chateau"><a href="media/chateau.JPG" target="_blank"><p>Les chateaux du médoc</p></a></li>
+                <li id="phare"><a href="media/phare.JPG" target="_blank"><p>L''estuaire de la Gironde</p></a></li>
+                <li id="vignoble"><a href="media/vignes.jpg" target="_blank"><p>Le vignoble Bordelais</p></a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <h2 id="contact">Contactez-nous</h2>
+        <form>
+            <input placeholder="Nom">
+            <input placeholder="Email">
+            <textarea placeholder="Votre Message ici..."></textarea>
+            <button onclick="myFunction()">Envoyer</button>
+            <script>function myFunction() {
+                alert("Site test evidemment qu'aucun message ne sera reçu par qui que ce soit !")
+                }</script>
+        </form>
+        <div id="secondline"></div>
+        <div id="copyrighticons">
+            <div id="copyright">
+                <span>© Benjamin SOUIKET (cours fromScratch) 2023</span>
+            </div>
+            <div id="icons">
+                <a href="http://www.twitter.fr/"><i class="fa fa-twitter"></i></a>
+                <a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                <a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
