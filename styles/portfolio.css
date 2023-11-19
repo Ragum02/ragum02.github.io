@@ -1,0 +1,65 @@
+.portfolioimages h2 {
+    font-size: 2em;
+    margin-bottom: 80px;
+}
+.portfolioimages {
+    background-color: white;
+}
+.portfolioimages h2 {
+    color: #242424;
+    margin-bottom: 80px;
+}
+.travelshoot {
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+}
+.portraits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+}
+.travelshoot img,
+.portraits img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+.portfolioimages img {
+    box-shadow:  1px 1px 10px 2px black;
+}
+.portfolioimages img:hover {
+    transform: scale(1.05);
+    border-radius: 25px;
+    transition: 0.3s ease-in-out;
+    }
+.lien-conteneur-photo{
+    position: relative;
+}
+.photo-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display:none;
+}
+.lien-conteneur-photo:hover img{
+    transform: scale(1.05);
+    border-radius: 25px;
+    transition: 0.3s ease-in-out;
+}
+.lien-conteneur-photo:hover .photo-hover {
+display: flex;
+transform: scale(1.05);
+border-radius: 25px;
+}

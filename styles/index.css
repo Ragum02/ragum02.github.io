@@ -1,0 +1,115 @@
+.home{
+    max-width: 1000px;
+    margin: auto;
+    align-items: flex-start;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+.home p{
+    margin-bottom: 3em;
+}
+.index-images h2 {
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+}
+.index-images {
+    padding: 80px;
+    background-color: white;
+}
+.index-images div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.index-images img{
+    box-shadow:  1px 1px 10px 2px black;
+}
+section {
+    padding: 80px;
+}
+.cta {
+    margin-top: 50px;
+}
+input, textarea {
+    border-radius: 8px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+}
+.form-nom-mail {
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.form-column{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+input,
+textarea {
+    padding: 15px;
+    border: none;
+}
+label {
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    background: linear-gradient(#8e86b5, #acaeed);
+    border-radius: 25px;
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
+#contact h2 {
+    font-size: 2rem;
+    color: #a5b4fc;
+    text-align: center;
+    margin-bottom: 50px;
+}
+input[type="submit"]:hover {
+    background: linear-gradient(#696484, #8788BA);
+    cursor: pointer;
+}
+@media screen and (max-width: 996px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .home div {
+        padding-right: 0;
+        text-align: center;
+        order: 2;
+    }
+    .home img {
+        order: 1;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .index-images {
+        padding: 20px;
+    
+    }
+    .index-images div {
+        flex-direction: column;
+    }
+    .contact {
+        padding: 50px 20px;
+    }
+    .form-nom-mail {
+        flex-direction: column;
+        gap: 0;
+    }
+}

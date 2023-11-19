@@ -1,0 +1,21 @@
+table {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: 5em;
+}
+td, th {
+    padding: 15px;
+    border: 1px solid #8E86B5;
+}
+td {
+    padding: 80px;
+}
+h2 {
+    margin-bottom: 80px;
+}
+h1,
+h2 {
+  text-align: center;
+}

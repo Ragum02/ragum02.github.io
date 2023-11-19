@@ -1,0 +1,21 @@
+.textapropos {
+    width: 50%;
+    margin: auto;
+
+}
+.textabout {
+ border-bottom: 1px solid #8E86B5;
+ border-right: 1px solid #8E86B5;
+ padding: 50px;
+ margin-bottom: 70px;
+}
+.textapropos + div {
+    text-align: center;
+}
+.textapropos .cta {
+    position: relative;
+    left: 40%;
+}
+.textapropos h2, ul {
+    margin-top: 30px;
+}
